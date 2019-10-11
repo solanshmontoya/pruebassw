@@ -1,0 +1,51 @@
+name: flutterapp
+description: A new Flutter project.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  http: ^0.11.3+16	
+  cupertino_icons: ^0.1.2
+  validate: ^1.6.0
+  # sqflite: ^0.7.1
+  # path_provider: ^0.3.1
+  shared_preferences: ^0.4.2
+  date_format: ^1.0.4
+  intl: ">=0.14.0"
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/login.png
+    - assets/img/account.png
+    - assets/img/bg.jpeg
+    - assets/img/bg.jpg
+    - assets/img/bgProfile.jpeg
+    - assets/img/profile.png
+    - assets/img/profile1.png
+    - assets/img/edisonLogoGreen.png
+
+fonts:
+- family: Poppins
+  fonts:
+    - asset: assets/fonts/Poppins/Poppins-ExtraBold.ttf
+      weight: 800
+    - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+      weight: 700
+    - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+      weight: 600
+    - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+      weight: 500
+    - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+      weight: 400
+
+- family: Lobster
+  fonts:
+    - asset: assets/fonts/Lobster/Lobster-Regular.ttf
